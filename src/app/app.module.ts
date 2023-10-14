@@ -7,7 +7,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
-import { CardPriceTagComponent } from './components/card/card-price-tag/card-price-tag.component';
+import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
+import { CardPricingPriceComponent } from './components/card/card-pricing/card-pricing-price/card-pricing-price.component';
+import { CardPricingConsoleInfoComponent } from './components/card/card-pricing/card-pricing-console-info/card-pricing-console-info.component';
+import { MenuBarNavComponent } from './components/menu-bar/menu-bar-nav/menu-bar-nav.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { CardPriceTagComponent } from './components/card/card-price-tag/card-pri
     CardComponent,
     MenuBarComponent,
     CardLabelComponent,
-    CardPriceTagComponent
+    CardPricingComponent,
+    CardPricingPriceComponent,
+    CardPricingConsoleInfoComponent,
+    MenuBarNavComponent,
   ],
   imports: [
     BrowserModule,

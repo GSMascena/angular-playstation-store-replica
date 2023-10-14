@@ -8,8 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
   @Input() gameImg : string = ""
   @Input() gameLabel : string = ""
-  @Input() gameType : string = ""
   @Input() gamePrice : string = ""
+  @Input() gameInfo : string[] = [""]
 
   constructor() { }
 

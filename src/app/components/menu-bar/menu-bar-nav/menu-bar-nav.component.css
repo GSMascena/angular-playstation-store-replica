@@ -1,0 +1,28 @@
+.menu-bar__links {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar__links > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.menu-bar__links > ul > li {
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.menu-bar__links > ul > li > a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+}
+
+.menu-bar__links > ul > li > a:hover {
+  color: #1515da;
+}

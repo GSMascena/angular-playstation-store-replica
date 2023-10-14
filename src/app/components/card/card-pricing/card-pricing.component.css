@@ -1,4 +1,4 @@
-.card-price-tag__container {
+.card-pricing__container {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -16,23 +16,13 @@
   font-family: 'Calibri';
 }
 
-.card-price-tag__title {
+.card-pricing__title {
   margin-bottom: 3px;
 }
 
-.card-price-tag__value {
+.card-pricing__value {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.card-price-tag__value__console{
-  display: flex;
-  flex-direction: row;
-}
-
-.card-price-tag__value__console > span{
-  color: rgb(0, 217, 255);
-  font-weight: bolder;
-  margin-right: 10px;
-}
